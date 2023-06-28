@@ -33,6 +33,6 @@
         localStorage.setItem('night', isNight);
     }
 
-    findNightNav();
-    isNight && applyNight(isNight);
+    // findNightNav();
+    // isNight && applyNight(isNight);
 }());
