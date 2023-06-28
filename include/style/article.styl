@@ -25,6 +25,7 @@ article
         .title
             @extend .is-size-6
             margin-bottom: .25em
+        
 
         .date, .categories
             @extend .is-size-7
@@ -52,6 +53,11 @@ article
 
         .title
             font-weight: 700
+
+        .title-prefix::before
+            content: '#'
+            margin-right: .35rem
+            color: #276cda
 
         .content
             word-wrap: break-word
